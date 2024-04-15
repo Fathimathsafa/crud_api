@@ -221,7 +221,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     if (response != null) {
       ScaffoldMessenger.of(context)
-          .showSnackBar(SnackBar(content: Text("Sccessfully deleted")));
+          .showSnackBar(SnackBar(content: Text("Sccessfully Deleted")));
       await fetchdata();
     } else {
       print(response);
